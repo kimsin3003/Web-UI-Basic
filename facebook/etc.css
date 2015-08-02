@@ -1,0 +1,20 @@
+
+#etc {
+	position: relative;
+	text-align: left;
+	width: 300px;
+}
+
+#etc-board {
+	margin-top: 10px;
+	padding: 0px;
+	min-height: 700px;
+	background-color: white;
+	border: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-top-color: #e5e6e9;
+	border-bottom-color: #d0d1d5;
+	border-left-color: #dfe0e4;
+	border-right-color: #dfe0e4;
+}

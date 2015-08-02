@@ -1,0 +1,77 @@
+<!DOCTYPE=html>
+<head>
+<style type="text/css">
+	body {
+		margin-top: 25px;
+	}
+	
+	div {
+		display: inline-block;
+	}
+	ul {
+		display: none;
+		z-index: 0;
+	}
+
+	li {
+		text-align: left;
+		padding: 5px;
+	}
+
+	span{
+		background-color: black;
+		border-radius: 5px;
+		font-size: 20px;
+		border: solid;
+		border-width: 2px;
+		border-color: black;
+		color: white;
+		padding: 8px;
+		cursor: pointer;
+	}
+
+	span:hover {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-bottom: none;
+		border-bottom-color: white; 
+	}
+
+	span:hover + ul{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		margin-top: 9px;
+		list-style: none;
+		position: absolute;
+		display: inline;
+		z-index: 2;
+		color: white;
+		font-size: 20px;
+		background-color: black;
+		padding-left: 5px;
+		padding-right: 46px;
+	}
+
+	ul:hover{
+		display: inline;
+		position: absolute;
+	}
+
+</style>
+</head>
+<body>
+<div>
+    <span>Hover me!</span>
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+    </ul>
+</div>
+Other text
+<p>Lorem ipsum</p>
+
+</body>

@@ -1,0 +1,12 @@
+#container {
+	width: 100%;
+	background-color: lightgray;
+
+}
+
+.col {
+	display: inline-block;
+	background-color: rgba(1,1,1,0);
+	vertical-align: top;
+}
+
