@@ -5,6 +5,12 @@
 	width: 300px;
 }
 
+@media screen and (max-width:1000px) {
+	#etc {
+    display: none;
+  }
+}
+
 #etc-board {
 	margin-top: 10px;
 	padding: 0px;
