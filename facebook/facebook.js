@@ -1,3 +1,15 @@
+document.addEventListener('keyup', function(event){
+    //console.log(keyCode + altkey);
+    if(event.keyCode === 83){
+        if(event.altKey){
+            document.getElementById('search').focus();
+        }
+
+    }
+
+})
+
+
 var newsfeed = document.getElementById("newsfeed");
 newsfeed.addEventListener('click', function(event){
     var likeButton = event.target.closest('.likeButton');
@@ -53,7 +65,7 @@ for(i = 0; i < 3; i++){
 }
 
 window.addEventListener("scroll", function(){
-	var scrollToBottom = document.body.scrollHeight - document.body.scrollTop;
+	var scrollToBottom = document.body.scrollHeight - document.body.scrollTop - window.innerHeight;
 	if(scrollToBottom < window.innerHeight){
         console.log("adfs");
 		var newFeed = document.createElement('div');
