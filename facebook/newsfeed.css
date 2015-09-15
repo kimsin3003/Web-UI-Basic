@@ -5,7 +5,13 @@
 	width: 500px;
 }
 
-
+.writer {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+}
 #feed-to-write {
 	margin: 10px;
 	min-height: 200px;
@@ -47,10 +53,20 @@
     display: none;
 }
 
-.likeCount {
+.like-count {
+    margin-right: 5px;
+}
+
+.comment-count  {
+    margin-right: 5px;
+}
+
+.share-count {
+    margin-right: 5px;
 }
 
 .commentButton {
+    disabled;
     margin-right: 20px;
     border-style: none;
     background-repeat: no-repeat;
@@ -62,6 +78,7 @@
 }
 
 .shareButton {
+    disabled;
     border-style: none;
     background-repeat: no-repeat;
     background-color: white;
