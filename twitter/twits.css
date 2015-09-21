@@ -1,0 +1,106 @@
+
+#twits {
+	position: relative;
+	text-align: left;
+	width: 590px;
+}
+
+#twit-to-write {
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+	margin-left: 10px;
+	min-height: 40px;
+    padding: 10px;
+	background-color: white;
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: powderblue;
+}
+#dummy {
+    margin-top: 10px;
+}
+
+#twit-writer {
+    padding-left: 20px;
+    padding-right: 10px
+}
+
+
+#twit-to-write-content {
+    margin-top: 30px;
+    position: relative;
+    margin-top:-10px;
+    height: 30px;
+    width: 500px;
+}
+#twit-to-write-content-onfocus {
+    margin-top:-10px;
+    height: 30px;
+    width: 90%;
+}
+
+#num-of-letter {
+    display: inline-block;
+}
+#send-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#send-button-avilable {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+}
+
+
+.content-col {
+	display: inline-block;
+    max-width: 440px;
+	background-color: rgba(1,1,1,0);
+	vertical-align: top;
+}
+
+.twit {
+    margin-left: 10px;
+	min-height: 100px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.profileImg {
+    width: 40px;
+    width: 40px;
+}
+
+.contentBox {
+    margin-left: 10px;
+}
+
+.userName{
+    margin-right: 10px;
+}
+.userId {
+    color: gray;
+}
+
+.content {
+    
+}
+.commentButton {
+    disabled;
+    margin-right: 40px;
+}
+
+.retweetButton {
+    disabled;
+    margin-right: 40px;
+}
+
+.favoriteButton {
+}
+
+.favoriteNum{
+}

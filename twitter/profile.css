@@ -1,0 +1,82 @@
+#profile {
+    height: 200px;
+    width: 290px;
+    position: relative;
+}
+
+#profile-upper {
+    background-color: #0084B4;
+    height: 90px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+#profile-content {
+    text-align: center;
+    background-color: white;
+    height: 110px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+#user-info {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 100%;
+}
+
+#user-img {
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 72px;
+    width: 72px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+#user-text {
+    padding-left: 10px;
+    padding-top: 45px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#user-name {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+#user-tagname {
+    font-size: 14px;
+    color: gray;
+}
+
+#user-etc {
+    clear: left;
+}
+
+.etc {
+    float: left;
+    margin-right: 40px;
+}
+
+.etc-title {
+    color: gray;
+    font-size: 10px;
+}
+
+.etc-value {
+    color: #0084B4;
+    font-size: 20px;
+}
+

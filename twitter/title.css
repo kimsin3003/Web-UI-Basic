@@ -1,0 +1,91 @@
+#title {
+    margin: -5px;
+    text-align: center;
+	z-index: 10;
+	position: fixed;
+	width: 100%;
+	height: 46px;
+	background-color: white;
+}
+
+#title-elements-container {
+    position: relative;
+    display: inline-block;
+    width : 900px;
+    text-align: center;
+    height: 46px;
+    margin: 0;
+}
+
+#buttons {
+    float: left;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777;
+}
+
+    /*home button*/
+    #home_button_container{
+        display: inline-block;
+        background-color: #0084B4;
+        height: 46px;
+    }
+    #home_button{
+        display: inline-block;
+        background-color: white;
+        height: 42px;
+        padding-right: 10px;
+    }
+
+    /*notification button*/
+    #notification_button_container{
+        display: inline-block;
+        background-color: white;
+        height: 46px;
+    }
+    #notification_button_container:hover{
+        background-color: #0084B4;
+    }
+    #notification_button{
+        display: inline-block;
+        background-color: white;
+        height: 42px;
+        padding-right: 10px;
+    }
+
+    /*notification button*/
+    #message_button_container{
+        display: inline-block;
+        background-color: white;
+        height: 46px;
+    }
+    #message_button_container:hover{
+        background-color: #0084B4;
+    }
+    #message_button{
+        display: inline-block;
+        background-color: white;
+        height: 42px;
+    }
+
+
+#twitter_logo {
+    width: 30%;
+    color: #55ACEE;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+#twitter_icon {
+    min-height: 20px;
+}
+
+#title_border {
+    margin: 0;
+    padding: 0;
+    background-color: #cacaca;
+    height: 1px;
+}
+/*#55ACEE*/

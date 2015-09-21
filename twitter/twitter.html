@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="title.css">
+	<link rel="stylesheet" type="text/css" href="container.css">
+	<link rel="stylesheet" type="text/css" href="profile.css">
+	<link rel="stylesheet" type="text/css" href="twits.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body id = "body">
+    <div id = "title">
+        <div id = "title-elements-container">
+            
+            <div id = "buttons">
+                <div id = "home_button_container">
+                    <div id = "home_button">
+                        <i class = "fa fa-home fa-lg" id = "home_icon"></i>Home
+                    </div>
+                </div>
+                <span id = "notification_button_container">
+                    <span id = "notification_button">
+                        <i class = "fa fa-bell fa-lg" id = "notfication_icon"></i>Notification
+                    </span>
+                </span>
+                <span id = "message_button_container">
+                    <span id = "message_button">
+                         <i class="fa fa-envelope-o fa-lg" id = "messages_icon"></i>Messages
+                    </span>
+                </span>
+            </div>
+            
+            <div id = "twitter_logo">
+                <span id = "twitter_icon">
+                    <i class="fa fa-twitter fa-2x" id = "twitter_icon"></i>
+                </span>
+            </div>
+        </div>
+        <div id = "title_border"></div> 
+    </div>
+    <div id = "container">
+        <div class = "col" id = "profile">
+            <div id = "profile-upper"></div>
+            <div id = "profile-content">
+            </div>
+            <div id = "user-info">
+                <div><img id = "user-img" src="./asset/profile-img.png"></div>
+                <div id = "user-text">
+                    <div id = "user-name">Kim Taewoo</div>
+                    <div id = "user-tagname">@taewoo</div>
+                </div>
+                <div id = "user-etc">
+                    <div class = "etc">
+                        <div class = "etc-title">TWEETS</div>
+                        <div class = "etc-value">423</div>
+                    </div>
+                    <div class = "etc">
+                        <div class = "etc-title">FOLLOWING</div>
+                        <div class = "etc-value">27</div>
+                    </div>
+                    <div class = "etc">
+                        <div class = "etc-title">FOLLOWERS</div>
+                        <div class = "etc-value">415</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "col" id = "twits">
+            <div id = "twit-to-write">
+                <div id = "dummy"></div>
+                <div class="content-col">
+                    <img class="profileImg" src="./asset/profile-img.png">
+                </div>
+                <div class="content-col contentBox">
+                <span><input id = "twit-to-write-content" type="texta"></span>
+                <div id = "num-of-letter">0</div>
+                <div id = "send-button"><i class="fa fa-paper-plane-o"></i></div>
+
+                <!--
+                </div>
+                <img style = "height:30px; width:30px; border-radius:5px;" src = "asset/profile-img.png">
+                -->
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="twitter.js"></script>
+</html>
