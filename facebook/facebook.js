@@ -25,26 +25,28 @@ var focusing = {
 //데이터 업데이트.
 var update = {
     page : 1,
-    count : 0,
     jsonFile : function() {
         return './JSON/page'+this.page+'.json';
     },
     loadData : function(){
+        
         if(this.page > 5)
             return false;
         var xmlHttp = new XMLHttpRequest();
-        var index = this.count;
         xmlHttp.open('GET', this.jsonFile(), true);
+        var curFile = this.jsonFile(this.page);
+        
         xmlHttp.addEventListener('readystatechange', function() {
+           
             if (xmlHttp.readyState === 4){
                 var dataList = JSON.parse(xmlHttp.responseText);
-                makeFeed(dataList[index]);
+                for(var i = 0; i < dataList.length; i++){
+                    makeFeed(dataList[i]);
+                }
             }
         });
-        if(this.count++ >= 4){
-            this.count = 0;
-            this.page++;
-        }
+        this.page++;
+        
         xmlHttp.send();
         return true;
     }
@@ -54,9 +56,8 @@ var update = {
 focusing.focusFunc();
 
 //초기 화면
-for(i = 0; i < 3; i++) {
-    update.loadData();
-}
+
+update.loadData();
 
 //스크롤 시
 window.addEventListener("scroll", function(){
